@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rocket Search</title>
+    <link rel="icon" type="image/png" href="rocketfibericon.png" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  <link rel="stylesheet" type="text/css" href="closest-network-node.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <div id="floating-panel">
+      <input id="address" type="textbox" value="">
+      <input id="submit" onkeydown = "if (event.keyCode == 13) document.getElementById('submit').click()" type="button" value="Rocket Search">
+    </div>
+    <div id="popup-panel">
+    </div>
+    <div id="map"></div>
+    <script src='closest-network-node.js'></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=REPLACE_WITH_GOOGLE_DEVELOPER_KEY">
+    </script>
+  </body>
+</html>

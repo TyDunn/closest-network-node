@@ -1,0 +1,80 @@
+     /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: fixed;
+        top: 0px; left: 0; bottom: 80%; right: 0;
+        margin: auto;
+        width: 440px;
+        height: 40px;
+        z-index: 5;
+        background-color: none;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+
+      #submit {
+        background-color: #d8262e;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 2px;
+      }
+
+      #address {
+        background-color: white;
+        width: 250px;
+        border: none;
+        color: black;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 2px;
+      }
+
+      #address:focus {outline:0;}
+
+      #submit:focus {outline:0;}
+
+      #submit:active {background-color: #E42730;}
+
+      #popup-panel {
+        position: fixed;
+        width: auto;
+        height: 40px;
+        bottom:0;
+        z-index: 5;
+        background-color: #0d426a;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Roboto','sans-serif';
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
